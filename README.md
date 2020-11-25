@@ -1,5 +1,5 @@
 # Repository for KinoXP
-eXtreme Programming mandetory project.
+eXtreme Programming mandatory project.
 Semester 3.
 Computer Science.
 KEA.
