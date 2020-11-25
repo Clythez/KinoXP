@@ -1,0 +1,6 @@
+Test til F6
+    Vi vil komme ind på en side, hvor vi kan skrive filmens id, tidspunkt, sal nummer, pris og tillæg ind.
+    Når disse informationer er skrevet ind, skal man kunne trykke på opret forestilling.
+    Når man har trykket, skal databasen være opdateret, med det indtastede informationer.
+
+    Forventet resultat:

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.kinoxp.Controller.MovieCreatorGUI">
+  <bottom>
+    <Button alignment="CENTER" mnemonicParsing="false" text="Opret film" BorderPane.alignment="CENTER">
+      <font>
+        <Font size="18.0" />
+      </font>
+      <BorderPane.margin>
+        <Insets bottom="40.0" />
+      </BorderPane.margin>
+    </Button>
+  </bottom>
+  <center>
+    <GridPane maxWidth="1.7976931348623157E308" minWidth="-Infinity" BorderPane.alignment="CENTER">
+      <children>
+        <Label prefHeight="64.0" prefWidth="186.0" text="Film navn">
+          <font>
+            <Font size="24.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label font="$x1" prefHeight="64.0" prefWidth="186.0" text="Genre" GridPane.rowIndex="1" />
+        <Label font="$x1" prefHeight="64.0" prefWidth="186.0" text="Længde" GridPane.rowIndex="2" />
+        <Label font="$x1" prefHeight="64.0" prefWidth="186.0" text="Aldersgrænse" GridPane.rowIndex="3" />
+        <TextField GridPane.columnIndex="1" />
+        <ChoiceBox prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <BorderPane.margin>
+        <Insets bottom="100.0" left="70.0" right="70.0" top="50.0" />
+      </BorderPane.margin>
+    </GridPane>
+  </center>
+  <top>
+    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-border-width: 5; -fx-border-color: #AAA; -fx-border-style: hidden hidden solid hidden;" BorderPane.alignment="CENTER">
+      <children>
+        <HBox alignment="CENTER" minWidth="100.0" prefHeight="100.0" prefWidth="200.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#backButton" text="&lt;---">
+              <HBox.margin>
+                <Insets />
+              </HBox.margin>
+            </Button>
+          </children>
+        </HBox>
+        <Label alignment="CENTER" prefHeight="64.0" prefWidth="800.0" text="Opret film">
+          <font>
+            <Font name="System Bold" size="36.0" />
+          </font>
+        </Label>
+        <HBox minWidth="100.0" prefHeight="100.0" prefWidth="200.0" />
+      </children>
+    </HBox>
+  </top>
+</BorderPane>

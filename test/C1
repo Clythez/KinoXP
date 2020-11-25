@@ -1,0 +1,9 @@
+TEST TIL C1
+
+Jeg skal kunne indsætte data i strid med typen
+    Expected result: Fail
+    Actual result: Error code 1064 Error in SQL Syntax
+
+Når vi eksekverer scriptet skal table kunne ses
+    Expected result: Table oprettet
+    Actual result: Table oprettet

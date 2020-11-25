@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane minHeight="600.0" minWidth="800.0" prefHeight="200.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.kinoxp.Controller.MainMenu">
+  <children>
+    <Button layoutX="126.0" layoutY="149.0" mnemonicParsing="false" onAction="#createMovie" prefHeight="56.9609375" prefWidth="231.0" text="Opret film">
+      <font>
+        <Font size="30.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="reservation" font="$x1" layoutX="451.0" layoutY="149.0" mnemonicParsing="false" onAction="#reservation" prefHeight="56.9609375" prefWidth="231.0" text="Bestilling" />
+    <Button font="$x1" layoutX="135.0" layoutY="356.0" mnemonicParsing="false" onAction="#movieList" prefHeight="56.9609375" prefWidth="231.0" text="Film oversigt" textAlignment="CENTER" wrapText="false" />
+    <HBox alignment="CENTER" layoutX="2.0" layoutY="0.0" prefHeight="100.0" prefWidth="800.0" style="-fx-border-width: 5; -fx-border-color: #AAA; -fx-border-style: hidden hidden solid hidden;">
+      <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" text="Menu" textAlignment="CENTER">
+          <font>
+            <Font size="40.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+  </children>
+</Pane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.kinoxp.Controller.OrderSummary">
+  <center>
+    <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <children>
+        <Label layoutX="281.0" layoutY="77.0" text="Film:">
+          <font>
+            <Font size="36.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label font="$x1" layoutX="390.0" layoutY="77.0" text="Titanic" />
+        <Label font="$x1" layoutX="299.0" layoutY="130.0" text="Tid:" />
+        <Label font="$x1" layoutX="385.0" layoutY="130.0" text="23.30" />
+        <Label font="$x1" layoutX="385.0" layoutY="193.0" text="1" />
+        <Label font="$x1" layoutX="301.0" layoutY="193.0" text="Sal:" />
+        <Label font="$x1" layoutX="390.0" layoutY="250.0" text="C4, C5, C6" />
+        <Label font="$x1" layoutX="246.0" layoutY="250.0" text="Sæder:" />
+        <Button layoutX="646.0" layoutY="403.0" mnemonicParsing="false" onAction="#returnToMainMenu" prefHeight="38.0" prefWidth="84.0" text="Bekræft" />
+      </children>
+    </Pane>
+  </center>
+  <top>
+    <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <children>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0">
+          <children>
+            <Label text="Bekræftelse af ordre">
+              <font>
+                <Font name="System Bold" size="36.0" />
+              </font>
+            </Label>
+          </children>
+        </HBox>
+        <HBox prefHeight="100.0" prefWidth="200.0" />
+      </children>
+    </HBox>
+  </top>
+</BorderPane>

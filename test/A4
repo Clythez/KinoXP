@@ -1,0 +1,5 @@
+Test Til A4
+
+Jeg skal kunne indsætte og gemme data i databasen
+    Expected result: Kør et select statement og kunne se den nye række
+    Actual result: Statement kørt og select returnerer den nye række
